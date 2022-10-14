@@ -1,0 +1,321 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+
+nav {
+    font-family: "Poppins", sans-serif;
+    width: 20%;
+    height: 100vh;
+    background-color: #f44336;
+    position: fixed;
+    padding: 30px 40px;
+    font-size: 18px;
+
+}
+
+ul {
+    list-style: none;
+
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    padding: 14px 10px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.2s;
+    transition-property: all;
+    transition-timing-function: linear;
+
+
+}
+
+ul li a:hover {
+    background-color: white;
+    color: black;
+    transform: translate(-5px, -5px);
+}
+
+.container {
+    max-width: 1130px;
+    /* max-width: 74%; */
+    padding: 64px 20px;
+    margin-left: 340px;
+    margin-right: 40px;
+}
+
+h3 {
+    font-family: "Poppins", sans-serif;
+    padding-top: 35%;
+    padding-bottom: 80px;
+    padding-left: 5px;
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+
+}
+
+/* home part */
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 64px;
+}
+
+.paragraphhome {
+    font-size: 48px;
+    color: #f44336;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+hr {
+    width: 60px;
+    border: 5px red solid;
+    border-radius: 5px;
+}
+
+
+.homeimg {
+    width: 100%;
+}
+
+.divimg {
+    float: left;
+    width: 50%;
+    cursor: pointer;
+
+}
+
+.img {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 530px;
+
+}
+
+.img:hover {
+    opacity: 0.6;
+}
+
+.clear {
+    clear: both;
+}
+
+/* all heading */
+
+.hServices,
+.hDesigners,
+.hPackageS,
+.hContact,
+.phome {
+    font-family: "Poppins", sans-serif;
+    font-size: 55px;
+    color: #f44336;
+    font-weight: 600;
+    padding-top: 60px;
+    padding-bottom: 25px;
+    animation-name: color;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+
+/* all paragraph */
+
+.paragraphservices,
+.paragraphDesigners,
+.paragraphPackageS,
+.paragraphContact {
+
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    padding-top: 20px;
+}
+
+span {
+    font-weight: 500;
+}
+
+/* Designers part */
+
+.card {
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px 0;
+}
+
+.card1 {
+    background-color: #eee;
+    margin-right: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}
+
+.card1:hover {
+    transform: translate(0, -20px);
+}
+
+.cardimg {
+    width: 100%;
+}
+
+.paragraphcard {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.spancard {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    opacity: 0.60;
+}
+
+.paragraphcard2 {
+    color: #000;
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+.textcard {
+    padding: 20px;
+}
+
+/* Packages part */
+
+.box {
+    width: 100%;
+    padding-top: 40px;
+}
+
+.box1 {
+    width: 49.9999%;
+    float: left;
+}
+
+.ulbox {
+    margin-right: 10px;
+}
+
+
+.libox {
+    font-family: Verdana, sans-serif;
+    padding: 16px 16px;
+    background-color: #eee;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.liboxpro {
+    font-family: Verdana, sans-serif;
+    padding: 32px 0;
+    background-color: #f44336;
+
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+.liboxBasic {
+    font-family: Verdana, sans-serif;
+    padding: 32px 0;
+    background-color: #616161;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+
+
+
+/* contact part */
+
+.inputcontact {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    width: 100%;
+
+
+}
+
+.input {
+    padding: 10px;
+    margin-top: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    transition: 0.3s;
+    transition-property: all;
+    transition-timing-function: linear;
+}
+
+.input:hover {
+    transform: translate(-5px, -5px);
+}
+
+.buttoninput {
+    background-color: #f44336;
+    color: white;
+    margin-top: 20px;
+    padding: 20px 20px;
+    font-size: 15px;
+    border: none;
+
+}
+
+.buttoninput:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+
+
+footer {
+    padding: 50px;
+    background-color: #f1f1f1;
+}
+
+.paragraphfooter {
+    display: flex;
+    justify-content: end;
+    color: #000;
+    font-size: 20px;
+}
+
+.afooter {
+    color: black;
+}
+
+.afooter:hover {
+    color: #616161;
+}
+
+
+@keyframes color {
+    from {
+        color: #f44336;
+    }
+
+    to {
+        color: #000;
+    }
+}
